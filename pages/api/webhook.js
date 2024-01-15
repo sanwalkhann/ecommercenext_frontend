@@ -1,7 +1,7 @@
 import {mongooseConnect} from "@/lib/mongoose";
 const stripe = require('stripe')(process.env.STRIPE_SK);
 import {buffer} from 'micro';
-import {Order} from "@/models/Order";
+import {Order} from "@/Model/Order";
 
 const endpointSecret = "whsec_7929666cc81be43d2e3523fe68d1a6f79d3bbd682f6d4747bb26681de782de2b";
 
