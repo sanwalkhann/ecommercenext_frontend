@@ -9,7 +9,7 @@ import Button from "@/components/Button";
 import CartIcon from "@/components/icons/CartIcon";
 import {useContext} from "react";
 import {CartContext} from "@/components/CartContext";
-import WhiteBox from "@/components/Whitebox";
+import WhiteBox from "@/components/WhiteBox";
 
 const ColWrapper = styled.div`
   display: grid;
